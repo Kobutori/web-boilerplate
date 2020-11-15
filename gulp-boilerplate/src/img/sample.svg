@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113.354" height="128.08" viewBox="0 0 113.354 128.08">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="113.354" height="128.08" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_8" data-name="グループ 8" transform="translate(-824 -263.599)">
+    <g id="シンボル_1_9" data-name="シンボル 1 – 9" transform="translate(824 263.599)" clip-path="url(#clip-path)">
+      <g id="長方形_1" data-name="長方形 1" transform="translate(0.087 6.331)" stroke="#000" stroke-width="1">
+        <rect width="94.685" height="121.749" stroke="none"/>
+        <rect x="0.5" y="0.5" width="93.685" height="120.749" fill="none"/>
+      </g>
+      <rect id="長方形_7" data-name="長方形 7" width="85.216" height="12.221" transform="translate(4.821 15.155)" fill="#fff"/>
+      <rect id="長方形_8" data-name="長方形 8" width="85.216" height="12.221" transform="translate(4.821 29.82)" fill="#fff"/>
+      <rect id="長方形_9" data-name="長方形 9" width="85.216" height="12.221" transform="translate(4.821 44.485)" fill="#fff"/>
+      <path id="パス_1" data-name="パス 1" d="M.5.214,19.082-5.261v118.1L.5,122.819Z" transform="translate(94.272 5.261)" fill="#484848"/>
+      <path id="パス_2" data-name="パス 2" d="M20.7,12.6h93.086L95.154,19.865.429,19.009Z" transform="translate(-0.429 -12.599)" fill="#333"/>
+      <rect id="長方形_10" data-name="長方形 10" width="10.671" height="9.459" transform="translate(4.821 113.891)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
