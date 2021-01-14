@@ -6,13 +6,13 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const app = {
   mode: 'production',
-  // devtool: 'eval-source-map',
+  //devtool: 'eval-source-map',
   entry: {
     main: './src/js/index.js',
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'js/[name]-[hash].js',
+    filename: 'js/[name].js',
   },
   performance: {
     maxEntrypointSize: 500000,
@@ -50,7 +50,7 @@ const app = {
             loader: 'file-loader',
             options: {
               esModule: false,
-              name: 'img/[name]-[hash].[ext]',
+              name: 'img/[name].[ext]',
               publicPath: path => '../' + path,
             },
           },
@@ -81,9 +81,15 @@ const app = {
       },
     ],
   },
+  devServer:{
+    port: 3020,
+    contentBase: './dist',
+    publicPath: '/',
+    open: true
+  },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'css/[name]-[hash].css',
+      filename: 'css/[name].css',
     }),
     new CleanWebpackPlugin(),
   ],
