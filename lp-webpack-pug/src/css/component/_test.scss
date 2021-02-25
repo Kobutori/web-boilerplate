@@ -15,4 +15,9 @@
 }
 .test{
   background-clip: text;
+  @include sp {
+    margin-top: .8rem;
+    padding: 0 .2rem .6rem 0;
+  }
 }
+
